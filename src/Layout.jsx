@@ -1,17 +1,14 @@
 import { useState } from 'react'
 import { Link, Route, Routes } from 'react-router'
 import HomePage from './pages/home'
-import TemplatePage from './pages/template'
-import TemplateWithParamPage from './pages/template-with-param'
+import MessagesPage from './pages/messages'
 
 const ROUTES = [
   { path: "/", element: <HomePage /> },
-  { path: "/template", element: <TemplatePage /> },
-  { path: "/template/:v", element: <TemplateWithParamPage /> },
+  { path: "/messages", element: <MessagesPage /> },
 ]
 
 export default function Layout() {
-
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -20,12 +17,17 @@ export default function Layout() {
         <Link to="/">
           <button className="btn btn-ghost">Home</button>
         </Link>
-        <Link to="/template">
-          <button className="btn btn-ghost">Template</button>
+
+        <Link to="/messages">
+          <button className="border border-black rounded-md px-4 py-2">
+            Messages
+          </button>
         </Link>
-        <Link to="/template/test">
-          <button className="btn btn-ghost">Template Parameter</button>
+
+        <Link to="/daily_streak">
+          <button className="btn btn-ghost">Daily Streak</button>
         </Link>
+
       </nav>
       {/* Main */}
       <Routes>

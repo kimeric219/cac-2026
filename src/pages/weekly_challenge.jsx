@@ -2,7 +2,7 @@ export default function WeeklyChallengePage() {
 
     return (
         <div className="flex-grow">
-            Hello Weekly Challenge
+            Welcome to the Weekly Challenge!
         </div>
     );
 }

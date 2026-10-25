@@ -9,17 +9,20 @@
 }
 
 .grid {
-  display: flex;
+  height: 800px;
+  align-content: center;
   justify-content: center;
-  align-items: center;
+  width: fill;
   display: grid;
-  grid-template-columns: 40% 20% 40%;
+  grid-template-columns: 33% 67% 0%;
   grid-template-rows: 40% 20% 40%;
   right: -40px;
 }
 
 .h-grid {
   height: 800px;
+  align-content: center;
+  justify-content: center;
   width: fill;
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -35,7 +38,6 @@
   justify-content: space-around;
   margin-left: 30px;
   padding: 8px 12px;
-  width: fit-content;
 
 }
 
@@ -60,16 +62,42 @@
 
 .text-2xl {
   margin: 5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.text-2xl_2 {
+  padding: 8px;
+  margin: 5px;
+  width: fit-content;
+  height: fit-content;
+  color: rgb(1, 31, 32);
+  background-color: rgb(0, 200, 255);
+  border: 2px solid rgba(0, 0, 0, 0.25)
 }
 
 .text-4xl {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-items: center;
   width: fit-content;
-  height: fit-content;
   padding: 10px;
   margin: 10px;
-  border: 2px solid rgba(185, 167, 255, 0.25)
+  border: 2px solid rgba(206, 13, 13, 0.25)
+}
+
+.box {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  font: bold;
+  height: 100px;
+  width: 120px;
 }
 
 .text-xl {
@@ -79,6 +107,45 @@
   justify-items: end;
 }
 
+.calendar-header {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1px;
+  width: 50%;
+  padding: 1px;
+  border-radius: 50px;
+
+.text-xl_2 {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  }
+
+}
+
+.container-calendar {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 40%;
+  min-height: 700px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 3px solid rgb(0, 255, 242);
+  margin-left: 1000px;
+
+}
+
 .text-6xl {
   display: flex;
   flex-wrap: wrap;
@@ -86,9 +153,43 @@
   align-items: center;
 }
 
+.text-7xl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+
 .text-3xl {
   display: flex;
   flex-wrap: wrap;
+  height: 100px;
   padding: 10px;
   border: 2px solid rgba(185, 167, 255, 0.25)
+}
+
+.text-5xl {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(133, 237, 225);
+  border: 2px solid rgba(0, 221, 245, 0.25)
+}
+
+.image3 {
+  height: 20vh;
+  border-radius: 10px;
+  width: 20vh;
+  margin: 10px;
+  padding: 10px;
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://img.freepik.com/premium-photo/happy-family-selfie-park-together-love-laughing-bonding-summer-holiday-vacation-smile-father-picture-kids-with-mother-outdoor-garden-funny-memory-social-media_590464-363028.jpg);
 }

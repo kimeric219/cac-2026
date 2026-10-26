@@ -1,6 +1,7 @@
 [
     {
         "name": "Mom",
+        "online": true,
         "messages": [
             { "from": "Mom", "text": "Don't Forget Dinner Tonight! Get the chicken out of the fridge" },
             { "from": "You", "text": "Okay, I'll prepare the chicken." },
@@ -8,15 +9,17 @@
         ]
     },
     {
-        "name": "Friend",
+        "name": "Jake",
+        "online": true,
         "messages": [
-            { "from": "Friend", "text": "Yo" },
+            { "from": "Jake", "text": "Yo" },
             { "from": "You", "text": "Sup" },
-            { "from": "Friend", "text": "Basketball tomorrow?" }
+            { "from": "Jake", "text": "Basketball tomorrow?" }
         ]
     },
     {
         "name": "Dad",
+        "online": false,
         "messages": [
             { "from": "Dad", "text": "Everything Okay at home?" },
             { "from": "You", "text": "Yep, all good!" }
@@ -24,17 +27,10 @@
     },
     {
         "name": "Brother",
+        "online": false,
         "messages": [
             { "from": "Brother", "text": "Clean your room" },
             { "from": "You", "text": "You first 😤" }
-        ]
-    },
-    {
-        "name": "Family Chat",
-        "messages": [
-            { "from": "Mom", "text": "How's everything going?" },
-            { "from": "Dad", "text": "Busy day at work." },
-            { "from": "You", "text": "Finished my homework!" }
         ]
     }
 ]

@@ -1,7 +1,6 @@
 import { Link } from 'react-router'
 import conversations from '../data/conversations.json'
 
-const people = conversations.filter((convo) => convo.name !== 'Family Chat')
 
 export default function HomePage() {
   return (
@@ -21,7 +20,7 @@ export default function HomePage() {
           <div>
             <div className="text-lg font-bold opacity-70">Family/Friends</div>
             <div className="flex flex-wrap gap-2 mt-1">
-              {people.map((person) => (
+              {conversations.map((person) => (
                 <span key={person.name} className="text-lg font-bold text-blue-400 border-2 border-blue-500/40 rounded-full px-3">
                   🟢 {person.name}
                 </span>

@@ -14,7 +14,7 @@ const ROUTES = [
 export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col">
-      <nav className="p-5 space-x-3 flex bg-base-300">
+      <nav className="p-5 gap-x-3 gap-y-2 flex flex-wrap items-center bg-base-300">
         <Link to="/">
           <button className="btn btn-ghost">Home</button>
         </Link>

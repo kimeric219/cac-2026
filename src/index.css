@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.grid {
+.my-grid {
   height: 800px;
   align-content: center;
   justify-content: center;
@@ -60,7 +60,7 @@
   align-items: center;
 }
 
-.text-2xl {
+.my-text-2xl {
   margin: 5px;
   width: fit-content;
   height: fit-content;
@@ -76,7 +76,7 @@
   border: 2px solid rgba(0, 0, 0, 0.25)
 }
 
-.text-4xl {
+.my-text-4xl {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -100,7 +100,7 @@
   width: 120px;
 }
 
-.text-xl {
+.my-text-xl {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -146,14 +146,14 @@
 
 }
 
-.text-6xl {
+.my-text-6xl {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.text-7xl {
+.my-text-7xl {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +162,7 @@
   margin: 0 auto;
 }
 
-.text-3xl {
+.my-text-3xl {
   display: flex;
   flex-wrap: wrap;
   height: 100px;
@@ -170,7 +170,7 @@
   border: 2px solid rgba(185, 167, 255, 0.25)
 }
 
-.text-5xl {
+.my-text-5xl {
   display: flex;
   flex-wrap: wrap;
   width: fit-content;
